@@ -1,0 +1,156 @@
+/*
+* @Author: 宏达
+* @Date:   2017-09-17 20:02:12
+* @Last Modified by:   宏达
+* @Last Modified time: 2017-09-17 23:05:20
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+html,body{
+	font-size: 14px;
+	background:rgba(0,0,0,0.8);
+}
+main{
+	width: 430px;
+	height: 332px;
+	background: red;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: 0 auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	border-radius: 5px;
+}
+.main-top{
+	width: 430px;
+	height: 180px;
+	background: #00ABD5;
+	border-radius: 5px 5px 0 0;
+	position: relative;
+}
+.main-bottom{
+	width: 430px;
+	height: 152px;
+	background: #EBF2F9;
+	border-radius: 0 0 5px 5px;
+	overflow: hidden;
+}
+.top-right{
+	width: 70px;
+	height: 10px;
+	/* background: hotpink; */
+	float: right;
+	margin: 5px 5px 0 0;
+}
+.top-right > ul li{
+	width: 14px;
+	height: 10px;
+	background: yellow;
+	float: left;
+	margin-right: 14px;
+}
+.top-right > ul li:last-child{
+	margin-right: 0;
+}
+.top-center{
+	width: 130px;
+	height: 58px;
+	background: hotpink;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.top-center > .qie{
+	width: 55px;
+	height: 58px;
+	background: yellow;
+}
+.top-center > .qq{
+	width: 60px;
+	height: 58px;
+	background: yellow;
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+	line-height: 58px;
+}
+.touxiang{
+	width: 70px;
+	height: 70px;
+	background: yellow;
+	margin: 16px 0 0 70px;
+	float: left;
+}
+.login{
+	width: 198px;
+	height: 148px;
+	background: #fff;
+	margin-left: 140px;
+	overflow: hidden;
+}
+.inputEle{
+    box-sizing: border-box;
+	padding: 14px 8px 0 8px;
+	margin-top: 6px;
+}
+.inputEle1{
+    box-sizing: border-box;
+	padding: 0px 8px 0 8px;
+}
+.inputEle input{
+	padding: 6px 5px;
+	border-radius: 4px 4px 0 0;
+	outline: none;
+	border: none;
+	border: 1px solid #999;
+}
+.inputEle input:focus{
+	border: 1px solid #00ABD5;
+}
+.inputEle1 input{
+	padding: 6px 5px;
+	border-radius: 0 0 4px 4px;
+	outline: none;
+	border: none;
+	border: 1px solid #999;
+}
+.inputEle1 input:focus{
+	border: 1px solid #00ABD5;
+}
+/* .inputEle input:hover{
+	border: 1px solid #00ABD5;
+} */
+button{
+	width: 100%;
+	background: #00ABD5;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #fff;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 12px;
+    padding: 6px 0;
+}
+button:hover{
+	background: #39C1F3;
+    transition: all 1s ease 0s;
+}
